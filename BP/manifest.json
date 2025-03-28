@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "v1.21.70 - Pack by Mittens4all - Detect when a player holds air",
+    "name": "Detect Air",
+    "uuid": "0c1e792e-d1d1-49c5-bad9-095cb5781699",
+    "version": [ 1, 21, 70 ],
+    "min_engine_version": [ 1, 21, 70 ]
+  },
+  "modules": [
+    {
+      "description": "Behavior Pack",
+      "type": "data",
+      "uuid": "2b09e625-7c32-4d32-9fbc-ed87ec68e154",
+      "version": [ 1, 0, 0 ]
+    },
+    {
+      "description": "Scripts Module",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "691f6f27-43dc-4f90-9f3e-46bc5d346871",
+      "entry": "scripts/main.js",
+      "version": [ 1, 0, 0 ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.17.0"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "mittens4all"
+    ],
+    "license": "MIT",
+    "url": "https://github.com/mittens4all/",
+    "product_type": "addon"
+  }
+}
