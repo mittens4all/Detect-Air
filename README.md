@@ -1,7 +1,7 @@
-
 # Detect Air
 
-This behavior pack uses scoreboards to detect if a player has nothing in their mainhand. You can then run your own commands based on the player's score.
+This behavior pack uses scripts to detect if a player has nothing in their mainhand and assign the player a scoreboard value.
+You can then run your own commands based on the player's score.
 
 ## Installing the pack:
 
@@ -14,7 +14,7 @@ Re-enable achievements on either pc or mobile with the free NBT editor [Dovetail
 You can give players who are not holding any items in their mainhand an effect, like strength. This example command would be put into a repeating command block, set to unconditional, always active in a tickingarea.
 
 ```js
-effect @a[scores={detect_air=1}] strength 1 0 true
+effect @a[scores={detect:air=1}] strength 1 0 true
 ```
 
 ## Author
